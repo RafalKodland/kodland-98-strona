@@ -1,7 +1,22 @@
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
 body {
     background-color: aliceblue;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
 }
 
 h1 {
@@ -11,8 +26,18 @@ h1 {
     border-radius: 20px;
 }
 
+h2:hover {
+    animation: color-change 3s infinite;
+}
+
 p {
     color: green;
+    transition: all 1.5s;
+}
+
+p:hover {
+    color: red;
+    transition: all 1.5s;
 }
 
 ul {
