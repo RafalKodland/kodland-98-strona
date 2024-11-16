@@ -1,0 +1,5 @@
+0. Zainstalowanie aplikacji pipenv (pip install pipenv)
+
+1. Tworzenie wirtualnego środowiska za pomocą komendy pipenv shell
+2. Wzkazać VSC gdzie znajduje się nowa instalacja pythona (shift+crtl+p -> python select interpreter -> wybieramy stworzone środowisko)
+3. Instalowanie bibliotek wykonujemy poleceniem pipenv install (zamiast pip install)
