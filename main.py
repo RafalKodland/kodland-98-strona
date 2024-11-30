@@ -43,3 +43,6 @@ def end(size, lights, device):
                                                     )
                         )
 app.run(debug=True)
+
+
+# Inne zmiany na gałęzi Main
